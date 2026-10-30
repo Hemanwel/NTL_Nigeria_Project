@@ -104,7 +104,7 @@ VIIRS DNB mensuel (VCMSLCFG) et annuel VNL V2, DMSP–VIIRS harmonisé, Black Ma
 - **Question** — Où est l'industrie, et son activité progresse-t-elle ?
 - **Données** — VIIRS VNL V2, GHSL BUILT-S, Sentinel-5P NO₂/SO₂, MODIS MOD11A2, OpenStreetMap
 - **Méthode** — Concordance de six signaux par pixel (≥ 3 dont la lumière), grappes 8-connexes, typologie et confiance.
-- **Validation** — Comparaison avec la liste de référence (OpenStreetMap) (**précision / rappel / F1 = 59 % / 33 % / 0,43**)
+- **Validation** — Comparaison avec la liste de référence (OpenStreetMap) (**précision / rappel / F1 = 59 % / 34 % / 0,43**)
 - **Incertitude** — Confiance par grappe selon le nombre de signaux forts ; sites isolés à vérifier.
 - **Limites** — Résolution de Sentinel-5P (≈ 5 km) et MODIS (1 km) : les signaux qualifient un voisinage.
 - **Statut** — `experimental` · Confiance: faible
@@ -113,8 +113,8 @@ VIIRS DNB mensuel (VCMSLCFG) et annuel VNL V2, DMSP–VIIRS harmonisé, Black Ma
 
 **Résultats de cette exécution**
 
-- `F08` 174 grappes industrielles détectées par concordance de signaux satellitaires : 48 d'industrie lourde, 21 zones d'activités et de logistique, 44 sites d'hydrocarbures et 61 sites isolés à vérifier. Elles émettent 15,0 % de la lumière nationale (dernière année) ; leur lumière évolue de +2,3 % par an. Lagos concentre la plus forte activité industrielle. (confiance faible : précision 59 % et rappel 33 % face à la liste de référence)
-- `F73` 174 grappes industrielles (≥ 3 signaux sur 6) : Site isolé à vérifier 61, Industrie lourde 48, Hydrocarbures et torchères 44, Zone d'activités et logistique 21. Part de la lumière nationale : 15,0 % ; croissance annuelle +2,3 %. Validation (OpenStreetMap) : précision 59 %, rappel 33 %.
+- `F08` 174 grappes industrielles détectées par concordance de signaux satellitaires : 48 d'industrie lourde, 21 zones d'activités et de logistique, 44 sites d'hydrocarbures et 61 sites isolés à vérifier. Elles émettent 15,0 % de la lumière nationale (dernière année) ; leur lumière évolue de +2,3 % par an. Lagos concentre la plus forte activité industrielle. (confiance faible : précision 59 % et rappel 34 % face à la liste de référence)
+- `F73` 174 grappes industrielles (≥ 3 signaux sur 6) : Site isolé à vérifier 61, Industrie lourde 48, Hydrocarbures et torchères 44, Zone d'activités et logistique 21. Part de la lumière nationale : 15,0 % ; croissance annuelle +2,3 %. Validation (OpenStreetMap) : précision 59 %, rappel 34 %.
 - `F74` IND-001 — Industrie lourde à Municipal Area Council (Abuja Federal Capital Territory) (451.07 km², 3 signaux, confiance faible); IND-002 — Site isolé à vérifier à Eti Osa (Lagos) (325.94 km², 3 signaux, confiance faible); IND-004 — Site isolé à vérifier à Ikeja (Lagos) (141.04 km², 3 signaux, confiance faible); IND-147 — Hydrocarbures et torchères à Warri South-West (Delta) (0.86 km², 3 signaux, confiance faible); IND-151 — Hydrocarbures et torchères à Ogba/Egbema/Ndoni (Rivers) (0.86 km², 3 signaux, confiance faible); IND-005 — Industrie lourde à Nassarawa (Kano) (125.345 km², 3 signaux, confiance faible); IND-003 — Site isolé à vérifier à Ikorodu (Lagos) (227.9 km², 3 signaux, confiance faible); IND-142 — Hydrocarbures et torchères à Ikpoba-Okha (Edo) (0.86 km², 3 signaux, confiance faible); IND-148 — Hydrocarbures et torchères à Ohaji/Egbema (Imo) (0.86 km², 3 signaux, confiance faible); IND-033 — Hydrocarbures et torchères à Ibeno (Akwa Ibom) (4.3 km², 3 signaux, confiance faible)
 - `F75` Lagos : 13 grappe(s) industrielle(s), 714,2 km², 51,6 % de la lumière de la région.
 
@@ -172,4 +172,4 @@ VIIRS DNB mensuel (VCMSLCFG) et annuel VNL V2, DMSP–VIIRS harmonisé, Black Ma
 
 
 ---
-<sub>Généré par le notebook le 2026-10-29 · version 2.1.0</sub>
+<sub>Généré par le notebook le 2026-10-30 · version 2.1.0</sub>

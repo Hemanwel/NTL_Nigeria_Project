@@ -3,7 +3,7 @@
 # Rapport qualité — Nigeria
 
 - **version** — 2.1.0
-- **generated** — 2026-10-29T14:43:24
+- **generated** — 2026-10-30T06:39:37
 - **country** — Nigeria
 - **period** — 2014, 2025
 
@@ -16,7 +16,7 @@
 | 3 | Relation lumières–PIB | `experimental` | moyenne | corrélation / EAM (points) = n.d. / n.d. — Suivi hors échantillon de la croissance officielle | VIIRS, PIB réel (Banque mondiale, WDI) |
 | 4 | Chocs et résilience | `experimental` | faible | creux (choc principal) = -14,6 % — non — Le creux dépasse-t-il la variabilité ordinaire ? | VIIRS (monthly), Black Marble VNP46A2 (daily), catalogue d'événements |
 | 5 | Inégalités et électrification | `experimental` | moyenne | écart moyen (points) = -4,0 — Écart avec le taux d'accès à l'électricité de la Banque mondiale | VIIRS VNL V2, GHSL / WorldPop, GHSL SMOD, accès à l'électricité (WDI) |
-| 6 | Zones industrielles | `experimental` | faible | précision / rappel / F1 = 59 % / 33 % / 0,43 — Comparaison avec la liste de référence (OpenStreetMap) | VIIRS VNL V2, GHSL BUILT-S, Sentinel-5P NO₂/SO₂, MODIS MOD11A2, OpenStreetMap |
+| 6 | Zones industrielles | `experimental` | faible | précision / rappel / F1 = 59 % / 34 % / 0,43 — Comparaison avec la liste de référence (OpenStreetMap) | VIIRS VNL V2, GHSL BUILT-S, Sentinel-5P NO₂/SO₂, MODIS MOD11A2, OpenStreetMap |
 | 7 | Tourisme saisonnier | `experimental` | faible | r = non disponible — Corrélation avec les nuitées | VIIRS (monthly), nuitées ou arrivées WDI |
 | 8 | Signaux d'urbanisation | `experimental` | faible | Spearman ρ = 0,23 — Corrélation de rang avec la croissance de la surface bâtie GHSL (source indépendante) | VIIRS VNL V2, GHSL GHS-POP / WorldPop, GHSL GHS-BUILT-S R2023A, population urbaine (WDI) |
 
@@ -83,4 +83,4 @@
 
 
 ---
-<sub>Généré par le notebook le 2026-10-29 · version 2.1.0</sub>
+<sub>Généré par le notebook le 2026-10-30 · version 2.1.0</sub>

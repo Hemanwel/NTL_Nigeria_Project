@@ -13,7 +13,7 @@
   <a href="README.md"><img src="https://img.shields.io/badge/langues-FR%20%7C%20EN-F5C242" alt="FR | EN"></a>
   <a href="docs/methodology.fr.md"><img src="https://img.shields.io/badge/donn%C3%A9es-VIIRS%20%C2%B7%20Black%20Marble-0B121B?logo=nasa&logoColor=white" alt="VIIRS"></a>
   <a href="https://Hemanwel.github.io/NTL_Nigeria_Project/fr/?country=NGA#assistant"><img src="https://img.shields.io/badge/agent%20IA-Groq%20%7C%20Gemini%20%7C%20Ollama-6E40C9" alt="Agent IA"></a>
-  <a href="CHANGELOG.md"><img src="https://img.shields.io/badge/mis%20%C3%A0%20jour-2026--10--29-555" alt="mis à jour"></a>
+  <a href="CHANGELOG.md"><img src="https://img.shields.io/badge/mis%20%C3%A0%20jour-2026--10--30-555" alt="mis à jour"></a>
 </p>
 
 <p align="center"><a href="https://Hemanwel.github.io/NTL_Nigeria_Project/fr/"><img src="https://img.shields.io/badge/OUVRIR%20LE%20TABLEAU%20DE%20BORD-%E2%96%B6-00704A?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Ouvrir le tableau de bord" height="42"></a>&nbsp;&nbsp;<a href="https://colab.research.google.com/github/Hemanwel/NTL_Nigeria_Project/blob/main/notebooks/NTL_8_use_cases_FR.ipynb"><img src="https://img.shields.io/badge/EX%C3%89CUTER%20LE%20NOTEBOOK%20DANS%20COLAB-%E2%96%B6-3F7FC7?style=for-the-badge&logo=googlecolab&logoColor=white" alt="Exécuter le notebook dans Colab" height="42"></a></p>
@@ -214,7 +214,7 @@ Méthodologie complète : [docs/methodology.fr.md](docs/methodology.fr.md) · ra
 | 💹 3 · Relation lumières–PIB | `Expérimental` | moyenne | corrélation / EAM (points) = n.d. / n.d. |
 | ⚡ 4 · Chocs et résilience | `Expérimental` | faible | creux (choc principal) = -14,6 % — non |
 | ⚖️ 5 · Inégalités et électrification | `Expérimental` | moyenne | écart moyen (points) = -4,0 |
-| 🏭 6 · Zones industrielles | `Expérimental` | faible | précision / rappel / F1 = 59 % / 33 % / 0,43 |
+| 🏭 6 · Zones industrielles | `Expérimental` | faible | précision / rappel / F1 = 59 % / 34 % / 0,43 |
 | 🏖️ 7 · Tourisme saisonnier | `Expérimental` | faible | r = non disponible |
 | 🏙️ 8 · Signaux d'urbanisation | `Expérimental` | faible | Spearman ρ = 0,23 |
 
@@ -273,4 +273,4 @@ Développé par la **Banque africaine de développement (BAD)** et **Data Innova
 
 
 ---
-<p align="center"><sub>Généré par le notebook le 2026-10-29 · version 2.1.0 · <a href="https://github.com/Hemanwel/NTL_Nigeria_Project">Hemanwel/NTL_Nigeria_Project</a></sub></p>
+<p align="center"><sub>Généré par le notebook le 2026-10-30 · version 2.1.0 · <a href="https://github.com/Hemanwel/NTL_Nigeria_Project">Hemanwel/NTL_Nigeria_Project</a></sub></p>
