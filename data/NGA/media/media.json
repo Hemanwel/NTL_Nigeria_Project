@@ -87,7 +87,7 @@
   "kind": "png",
   "title": "Use case 6 — Industrial zones",
   "alt": "Use case 6 — Industrial zones: industrial clusters",
-  "caption": "174 industrial clusters detected from concordant satellite signals: 48 heavy industry, 21 business parks & logistics, 44 oil & gas sites and 61 isolated sites to verify. They emit 15.0% of national light (latest year); their light changes by +2.3% per year. Lagos has the most industrial activity. (confidence low: precision 59% and recall 33% against the reference list)",
+  "caption": "174 industrial clusters detected from concordant satellite signals: 48 heavy industry, 21 business parks & logistics, 44 oil & gas sites and 61 isolated sites to verify. They emit 15.0% of national light (latest year); their light changes by +2.3% per year. Lagos has the most industrial activity. (confidence low: precision 59% and recall 34% against the reference list)",
   "source": "VIIRS · GHSL · Sentinel-5P · MODIS · OpenStreetMap",
   "width": 800,
   "height": 500,
@@ -176,7 +176,7 @@
   "source": "dashboard",
   "width": 1440,
   "height": 900,
-  "bytes": 299206,
+  "bytes": 299577,
   "page": "industry"
  },
  "screen_tourism": {
@@ -224,6 +224,6 @@
   "source": "dashboard",
   "width": 960,
   "height": 600,
-  "bytes": 3309586
+  "bytes": 3309635
  }
 }

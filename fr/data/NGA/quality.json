@@ -1,6 +1,6 @@
 {
  "version": "2.1.0",
- "generated": "2026-10-29T14:43:24",
+ "generated": "2026-10-30T06:39:37",
  "country": "Nigeria",
  "period": [
   2014,
@@ -135,13 +135,13 @@
    "validation": {
     "text": "Comparaison avec la liste de référence (OpenStreetMap)",
     "metric": "précision / rappel / F1",
-    "value": "59 % / 33 % / 0,43"
+    "value": "59 % / 34 % / 0,43"
    },
    "uncertainty": "Confiance par grappe selon le nombre de signaux forts ; sites isolés à vérifier.",
    "limits": "Résolution de Sentinel-5P (≈ 5 km) et MODIS (1 km) : les signaux qualifient un voisinage.",
    "status": "experimental",
    "confidence": "faible",
-   "confidence_reason": "précision 59 % et rappel 33 % face à la liste de référence"
+   "confidence_reason": "précision 59 % et rappel 34 % face à la liste de référence"
   },
   {
    "uc": 7,

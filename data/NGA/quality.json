@@ -1,6 +1,6 @@
 {
  "version": "2.1.0",
- "generated": "2026-10-29T14:43:22",
+ "generated": "2026-10-30T06:39:35",
  "country": "Nigeria",
  "period": [
   2014,
@@ -135,13 +135,13 @@
    "validation": {
     "text": "Comparison with the reference list (OpenStreetMap)",
     "metric": "precision / recall / F1",
-    "value": "59% / 33% / 0.43"
+    "value": "59% / 34% / 0.43"
    },
    "uncertainty": "Per-cluster confidence from the number of strong signals; isolated sites to verify.",
    "limits": "Sentinel-5P (≈ 5 km) and MODIS (1 km) resolution: signals describe a neighbourhood.",
    "status": "experimental",
    "confidence": "low",
-   "confidence_reason": "precision 59% and recall 33% against the reference list"
+   "confidence_reason": "precision 59% and recall 34% against the reference list"
   },
   {
    "uc": 7,
